@@ -1,4 +1,5 @@
-# Arquitectura
+# Arquitectura de Computadores
+
 Teacher : Yvan Jesús Túpac Valdivia
 
 
