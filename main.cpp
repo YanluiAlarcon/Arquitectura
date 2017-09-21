@@ -10,17 +10,15 @@ void ver(int a[],int tam){
     cout << endl;
 }
 int main(){
-    int a , b , c , d ,e ;
+    int a ,b, c;
     cout << "Ingrese el tamañno del bit: "; cin >> a;
-    cout<< "Numero Binario 1: "; cin >> b >> d;
-    cout<< "Numero Binario 1: "; cin >> c >> e;
+    cout << "Numero Binario 1: "; cin >> b;
+    cout<< "Numero Binario 2: "; cin >> c;
     binario M(a);
-    //M.addBin(b,c);
-    cout << M.binToDec(b)<<endl;
-    cout << M.binToDec(c)<<endl;
-    M.decToBin(d);
-    cout << endl;
-    M.decToBin(e);
-    //ver(M.changeSing(M.bitwise(M.decToBin(b))),a);
+    ver(M.addBin(b,c));
+    ver(M.subtractBin(b,c));
+    ver(M.multiply(b,c));
+    ver(M.multiplySing(b,c));
+    ver(M.split(b,c));
     return 0;
 }
